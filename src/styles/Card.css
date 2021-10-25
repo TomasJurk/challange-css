@@ -1,0 +1,39 @@
+.card {
+    border-bottom: 1px solid #B4B6B8;
+    margin-top: 64px;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+
+.card > h3 {
+    margin-bottom: 16px;
+}
+
+.card > p {
+    margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 576px) {
+    .card {
+        margin-top: 96px;
+        flex-basis: 47%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        flex-basis: 31%;
+    }
+
+    .card:first-child {
+        margin-left: 33.33%;
+    }
+
+    .card:last-child {
+        margin-right: 33.33%;
+    }
+}
