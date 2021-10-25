@@ -1,0 +1,17 @@
+.App {
+  padding: 80px 16px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .App {
+    padding: 128px 32px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .App {
+    padding: 133px 45px 133px 75px;
+  }
+}
