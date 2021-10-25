@@ -12,13 +12,14 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  background-color: #F2F4F5;
+  background-color: #f2f4f5;
 }
 
 h1 {
   font-size: 48px;
   line-height: 48px;
   font-weight: 400;
+  max-width: 868px;
 }
 
 h3 {
@@ -28,8 +29,8 @@ h3 {
 }
 
 p {
-   font-size: 18px;
-   line-height: 26px; 
+  font-size: 18px;
+  line-height: 26px;
 }
 
 @media only screen and (min-width: 576px) {
@@ -42,5 +43,3 @@ p {
     line-height: 36px;
   }
 }
-
-
